@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colombia 5.0 — Agentes de IA | SENA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ══════ NAV ══════ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#inicio" class="nav-brand">
+      <span class="brand-col">Colombia</span><span class="brand-num">5.0</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#inicio"    data-es="Inicio"       data-en="Home">Inicio</a></li>
+      <li><a href="#conferencia" data-es="Conferencia" data-en="Conference">Conferencia</a></li>
+      <li><a href="#galeria"   data-es="Galería"      data-en="Gallery">Galería</a></li>
+      <li><a href="#conceptos" data-es="Conceptos"    data-en="Concepts">Conceptos</a></li>
+      <li><a href="#glosario"  data-es="Glosario"     data-en="Glossary">Glosario</a></li>
+      <li><a href="#reflexion" data-es="Conclusión"   data-en="Conclusion">Conclusión</a></li>
+    </ul>
+    <div class="lang-switch">
+      <button class="lang-btn active" id="btn-es" onclick="setLang('es')">🇨🇴 ES</button>
+      <button class="lang-btn"        id="btn-en" onclick="setLang('en')">🇺🇸 EN</button>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ══════ HERO ══════ -->
+<section class="hero" id="inicio">
+  <div class="hero-bg-orb orb1"></div>
+  <div class="hero-bg-orb orb2"></div>
+  <div class="hero-bg-orb orb3"></div>
+  <div class="hero-content fade-in">
+    <div class="hero-eyebrow">
+      <span class="dot-live"></span>
+      <span data-es="BOGOTÁ · CORFERIAS · 9 MAYO 2026" data-en="BOGOTÁ · CORFERIAS · MAY 9, 2026">BOGOTÁ · CORFERIAS · 9 MAYO 2026</span>
+    </div>
+    <h1 class="hero-title">
+      <span class="word-que" data-es="Que la" data-en="Let">Que la</span><br/>
+      <span class="word-ia">IA</span>
+      <span class="word-trabaje" data-es="trabaje para ti" data-en="work for you">trabaje para ti</span>
+    </h1>
+    <p class="hero-sub" data-es="Automatiza tu trabajo con agentes de inteligencia artificial. Informes, datos, propuestas y tableros — desde herramientas gratuitas y abiertas." data-en="Automate your work with artificial intelligence agents. Reports, data, proposals and dashboards — using free and open-source tools.">
+      Automatiza tu trabajo con agentes de inteligencia artificial. Informes, datos, propuestas y tableros — desde herramientas gratuitas y abiertas.
+    </p>
+    <div class="hero-tags">
+      <span>#AgentesIA</span>
+      <span>#Colombia5punto0</span>
+      <span>#LLM</span>
+      <span>#Automatización</span>
+    </div>
+    <div class="hero-cta">
+      <a href="#conferencia" class="btn btn-primary" data-es="Ver Conferencia" data-en="View Conference">Ver Conferencia</a>
+      <a href="#glosario"    class="btn btn-ghost"   data-es="Glosario Técnico" data-en="Technical Glossary">Glosario Técnico</a>
+    </div>
+  </div>
+  <!-- Floating card -->
+  <div class="hero-card fade-in-delay">
+    <div class="hc-icon">🤖</div>
+    <div class="hc-text">
+      <strong data-es="Taller de Alto Impacto" data-en="High-Impact Workshop">Taller de Alto Impacto</strong>
+      <span data-es="Agentes de IA · Gabriel Alzate" data-en="AI Agents · Gabriel Alzate">Agentes de IA · Gabriel Alzate</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════ CONFERENCIA ══════ -->
+<section class="section" id="conferencia">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow" data-es="// TALLER ASIGNADO" data-en="// ASSIGNED WORKSHOP">// TALLER ASIGNADO</div>
+      <h2 class="section-title" data-es="Agentes de IA y Automatización de Procesos" data-en="AI Agents and Process Automation">Agentes de IA y<br/><span class="gradient-text">Automatización de Procesos</span></h2>
+    </div>
+
+    <div class="speaker-block reveal">
+      <div class="speaker-avatar">GA</div>
+      <div class="speaker-info">
+        <div class="speaker-name">Gabriel Alzate</div>
+        <div class="speaker-role" data-es="Ingeniero & Magíster · Fundador de DatosCol · @gabalzate" data-en="Engineer & Master's Degree · Founder of DatosCol · @gabalzate">Ingeniero &amp; Magíster · Fundador de DatosCol · @gabalzate</div>
+        <div class="speaker-tags">
+          <span class="stag">&gt; ESTRATEGIA_DIGITAL</span>
+          <span class="stag accent">&gt; LLM_DEPLOYMENT</span>
+          <span class="stag">&gt; OSINT_AUTOMATION</span>
+        </div>
+      </div>
+      <div class="speaker-meta">
+        <div class="sm-row"><span class="sm-icon">📍</span><span data-es="Salón 3 · Pabellón 3 Piso 1 · Corferias" data-en="Room 3 · Pavilion 3 Floor 1 · Corferias">Salón 3 · Pabellón 3 Piso 1 · Corferias</span></div>
+        <div class="sm-row"><span class="sm-icon">📅</span><span data-es="9 de Mayo de 2026" data-en="May 9, 2026">9 de Mayo de 2026</span></div>
+        <div class="sm-row"><span class="sm-icon">🏛️</span><span data-es="Colombia 5.0 · Universidad Distrital FJC" data-en="Colombia 5.0 · Universidad Distrital FJC">Colombia 5.0 · Univ. Distrital FJC</span></div>
+      </div>
+    </div>
+
+    <!-- Resumen bilingüe -->
+    <div class="conf-summary reveal">
+      <div class="cs-label" data-es="RESUMEN DE LA CONFERENCIA" data-en="CONFERENCE SUMMARY">RESUMEN DE LA CONFERENCIA</div>
+      <p data-es="En el Taller de Alto Impacto sobre Agentes de IA, el ingeniero Gabriel Alzate presentó cómo la inteligencia artificial ha evolucionado hasta convertirse en sistemas autónomos capaces de planificar, ejecutar y tomar decisiones de forma independiente. La presentación denominada <em>'Que la IA trabaje para ti'</em> demostró cómo en solo seis años la capacidad de la IA frontera escaló de tareas triviales de segundos (GPT-2, 2020) hasta la resolución de desafíos técnicos complejos de más de 10 horas (Claude Opus 4.6, 2026).<br/><br/>El taller enseñó a los participantes a construir un sistema agéntico personal usando herramientas gratuitas y abiertas como OpenCode, y a aplicar el <strong>Semáforo Agéntico</strong>: verde para automatizar tareas mecánicas de alto volumen, naranja para aumentar tareas con componente humano parcial, y morado para preservar siempre las interacciones estratégicas de alta empatía." data-en="At the High-Impact Workshop on AI Agents, engineer Gabriel Alzate presented how artificial intelligence has evolved into autonomous systems capable of planning, executing, and making decisions independently. The presentation called <em>'Let AI work for you'</em> demonstrated how in just six years, frontier AI capability scaled from trivial second-long tasks (GPT-2, 2020) to solving complex technical challenges of more than 10 hours (Claude Opus 4.6, 2026).<br/><br/>The workshop taught participants to build a personal agentic system using free and open-source tools like OpenCode, and to apply the <strong>Agentic Traffic Light</strong>: green to automate high-volume mechanical tasks, orange to augment tasks with a partial human component, and purple to always preserve high-empathy strategic interactions.">
+        En el Taller de Alto Impacto sobre Agentes de IA, el ingeniero Gabriel Alzate presentó cómo la inteligencia artificial ha evolucionado hasta convertirse en sistemas autónomos capaces de planificar, ejecutar y tomar decisiones de forma independiente. La presentación denominada <em>"Que la IA trabaje para ti"</em> demostró cómo en solo seis años la capacidad de la IA frontera escaló de tareas triviales de segundos (GPT-2, 2020) hasta la resolución de desafíos técnicos complejos de más de 10 horas (Claude Opus 4.6, 2026).<br/><br/>
+        El taller enseñó a los participantes a construir un sistema agéntico personal usando herramientas gratuitas y abiertas como OpenCode, y a aplicar el <strong>Semáforo Agéntico</strong>: verde para automatizar tareas mecánicas de alto volumen, naranja para aumentar tareas con componente humano parcial, y morado para preservar siempre las interacciones estratégicas de alta empatía.
+      </p>
+      <div class="kw-list">
+        <span class="kw" data-es="Agentes de IA" data-en="AI Agents">Agentes de IA</span>
+        <span class="kw" data-es="LLM" data-en="LLM">LLM</span>
+        <span class="kw" data-es="MCP" data-en="MCP">MCP</span>
+        <span class="kw" data-es="OpenCode" data-en="OpenCode">OpenCode</span>
+        <span class="kw" data-es="Automatización" data-en="Automation">Automatización</span>
+        <span class="kw" data-es="Skills" data-en="Skills">Skills</span>
+        <span class="kw" data-es="Ciclo Loop" data-en="Loop Cycle">Ciclo Loop</span>
+        <span class="kw" data-es="SAY→DO→LOG" data-en="SAY→DO→LOG">SAY→DO→LOG</span>
+        <span class="kw" data-es="Multi-agentes" data-en="Multi-agents">Multi-agentes</span>
+        <span class="kw" data-es="Herramientas" data-en="Tools">Herramientas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════ GALERÍA — imagen destacada + primera fila ══════ -->
+<section class="section section-dark" id="galeria">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow" data-es="// GALERÍA MULTIMEDIA" data-en="// MULTIMEDIA GALLERY">// GALERÍA MULTIMEDIA</div>
+      <h2 class="section-title" data-es="Registro Visual del Evento" data-en="Event Visual Record">Registro Visual del <span class="gradient-text" data-es="Evento" data-en="Event">Evento</span></h2>
+      <p class="section-sub" data-es="Registro fotográfico y audiovisual del Taller de Alto Impacto — Colombia 5.0, Corferias, Bogotá." data-en="Photographic and audiovisual record of the High-Impact Workshop — Colombia 5.0, Corferias, Bogotá.">Registro fotográfico y audiovisual del Taller de Alto Impacto — Colombia 5.0, Corferias, Bogotá.</p>
+    </div>
+
+    <!-- Imagen 1 — grande destacada -->
+    <div class="media-hero reveal">
+      <div class="media-box big">
+        <div class="img-ph img-ph-1">
+          <div class="ph-inner">
+            <div class="ph-icon"><img src="./IMAGEN1.jpeg">🖥️</div>
+            <strong data-es="IMAGEN 01" data-en="IMAGE 01">IMAGEN 01</strong>
+            <span data-es="Apertura del Taller · Gabriel Alzate" data-en="Workshop Opening · Gabriel Alzate">Apertura del Taller · Gabriel Alzate</span>
+            <small data-es="[ Reemplazar con foto del evento ]" data-en="[ Replace with event photo ]">[ Reemplazar con foto del evento ]</small>
+          </div>
+        </div>
+        <div class="media-caption" data-es="01 · Presentación inicial — Colombia 5.0" data-en="01 · Opening presentation — Colombia 5.0">01 · Presentación inicial — Colombia 5.0</div>
+      </div>
+      <div class="media-side-stack">
+        <div class="media-box med">
+          <div class="img-ph img-ph-2">
+            <div class="ph-inner">
+              <div class="ph-icon"><img src="./IMG_9.jpg">📊</div>
+              <strong data-es="IMAGEN 02" data-en="IMAGE 02">IMAGEN 02</strong>
+              <span data-es="El Salto Exponencial · 4s → 10h" data-en="The Exponential Leap · 4s → 10h">El Salto Exponencial · 4s → 10h</span>
+              <small data-es="[ Reemplazar con foto ]" data-en="[ Replace with photo ]">[ Reemplazar con foto ]</small>
+            </div>
+          </div>
+          <div class="media-caption" data-es="02 · Horizonte de Tiempo METR" data-en="02 · METR Time Horizon">02 · Horizonte de Tiempo METR</div>
+        </div>
+        <div class="media-box med">
+          <div class="img-ph img-ph-3">
+            <div class="ph-inner">
+              <div class="ph-icon"><img src="./IMAGEN2.jpg">🤖</div>
+              <strong data-es="IMAGEN 03" data-en="IMAGE 03">IMAGEN 03</strong>
+              <span data-es="¿Qué es un Agente de IA?" data-en="What is an AI Agent?">¿Qué es un Agente de IA?</span>
+              <small data-es="[ Reemplazar con foto ]" data-en="[ Replace with photo ]">[ Reemplazar con foto ]</small>
+            </div>
+          </div>
+          <div class="media-caption" data-es="03 · Sistema autónomo" data-en="03 · Autonomous system">03 · Sistema autónomo</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fila 2: 4 imágenes pequeñas -->
+    <div class="media-row-4 reveal">
+      <div class="media-box sm">
+        <div class="img-ph img-ph-4">
+          <div class="ph-inner">
+            <div class="ph-icon"><img src="./IMAGEN4.jpg">⚡</div>
+            <strong>IMG 04</strong>
+            <span data-es="MCP Protocol" data-en="MCP Protocol">MCP Protocol</span>
+            <small data-es="[ Foto ]" data-en="[ Photo ]">[ Foto ]</small>
+          </div>
+        </div>
+        <div class="media-caption" data-es="04 · Ecosistema MCP" data-en="04 · MCP Ecosystem">04 · Ecosistema MCP</div>
+      </div>
+      <div class="media-box sm">
+        <div class="img-ph img-ph-5">
+          <div class="ph-inner">
+            <div class="ph-icon"><img src="./IMAGEN7_1.jpg">🔗</div>
+            <strong>IMG 05</strong>
+            <span data-es="Ciclo Loop" data-en="Loop Cycle">Ciclo Loop</span>
+            <small data-es="[ Foto ]" data-en="[ Photo ]">[ Foto ]</small>
+          </div>
+        </div>
+        <div class="media-caption" data-es="05 · Pensar→Actuar→Refinar" data-en="05 · Think→Act→Refine">05 · Pensar→Actuar→Refinar</div>
+      </div>
+      <div class="media-box sm">
+        <div class="img-ph img-ph-6">
+          <div class="ph-inner">
+            <div class="ph-icon"><img src="./IMG_13.jpg">🧠</div>
+            <strong>IMG 06</strong>
+            <span data-es="Skills del Agente" data-en="Agent Skills">Skills del Agente</span>
+            <small data-es="[ Foto ]" data-en="[ Photo ]">[ Foto ]</small>
+          </div>
+        </div>
+        <div class="media-caption" data-es="06 · Expertos bajo demanda" data-en="06 · On-demand experts">06 · Expertos bajo demanda</div>
+      </div>
+      <div class="media-box sm">
+        <div class="img-ph img-ph-7">
+          <div class="ph-inner">
+            <div class="ph-icon"><img src="./IMAGEN6.jpg">📡</div>
+            <strong>IMG 07</strong>
+            <span data-es="Semáforo Agéntico" data-en="Agentic Traffic Light">Semáforo Agéntico</span>
+            <small data-es="[ Foto ]" data-en="[ Photo ]">[ Foto ]</small>
+          </div>
+        </div>
+        <div class="media-caption" data-es="07 · Verde/Naranja/Morado" data-en="07 · Green/Orange/Purple">07 · Verde / Naranja / Morado</div>
+      </div>
+    </div>
+
+    <!-- Fila videos + más fotos -->
+    <div class="media-row-videos reveal">
+      <div class="media-box video-box">
+        <div class="video-ph">
+          <button class="play-circle" aria-label="play">▶</button>
+          <strong data-es="VIDEO 01" data-en="VIDEO 01">VIDEO 01</strong>
+          <span data-es="Introducción al Taller · Gabriel Alzate" data-en="Workshop Introduction · Gabriel Alzate">Introducción al Taller · Gabriel Alzate</span>
+          <small data-es="[ Reemplazar con video del evento ]" data-en="[ Replace with event video ]">[ Reemplazar con video del evento ]</small>
+        </div>
+        <div class="media-caption v" data-es="🎬 Agentes de IA — Apertura" data-en="🎬 AI Agents — Opening">🎬 Agentes de IA — Apertura</div>
+      </div>
+      <div class="media-box video-box">
+        <div class="video-ph v2">
+          <button class="play-circle p2" aria-label="play">▶</button>
+          <strong data-es="VIDEO 02" data-en="VIDEO 02">VIDEO 02</strong>
+          <span data-es="Demo Sistema Agéntico · OpenCode" data-en="Agentic System Demo · OpenCode">Demo Sistema Agéntico · OpenCode</span>
+          <small data-es="[ Reemplazar con video del evento ]" data-en="[ Replace with event video ]">[ Reemplazar con video del evento ]</small>
+        </div>
+        <div class="media-caption v" data-es="🎬 Demo OpenCode en vivo" data-en="🎬 Live OpenCode Demo">🎬 Demo OpenCode en vivo</div>
+      </div>
+      <div class="media-box sm-v">
+        <div class="img-ph img-ph-8">
+          <div class="ph-inner">
+            <div class="ph-icon"><img src="./IMG_10.jpg">💡</div>
+            <strong>IMG 08</strong>
+            <span data-es="Multi-agentes Enjambres" data-en="Multi-agent Swarms">Multi-agentes Enjambres</span>
+            <small data-es="[ Foto ]" data-en="[ Photo ]">[ Foto ]</small>
+          </div>
+        </div>
+        <div class="media-caption" data-es="08 · Equipo Digital 5x" data-en="08 · Digital Team 5x">08 · Equipo Digital 5x</div>
+      </div>
+    </div>
+
+    <!-- Fila final 2 imágenes -->
+    <div class="media-row-final reveal">
+      <div class="media-box med-wide">
+        <div class="img-ph img-ph-9">
+          <div class="ph-inner">
+            <div class="ph-icon"><img src="./IMG_12.jpg">🚀</div>
+            <strong data-es="IMAGEN 09" data-en="IMAGE 09">IMAGEN 09</strong>
+            <span data-es="Audiencia del Taller · Colombia 5.0" data-en="Workshop Audience · Colombia 5.0">Audiencia del Taller · Colombia 5.0</span>
+            <small data-es="[ Reemplazar con foto ]" data-en="[ Replace with photo ]">[ Reemplazar con foto ]</small>
+          </div>
+        </div>
+        <div class="media-caption" data-es="09 · Participantes Colombia 5.0" data-en="09 · Colombia 5.0 Participants">09 · Participantes Colombia 5.0</div>
+      </div>
+      <div class="media-box med-wide">
+        <div class="img-ph img-ph-10">
+          <div class="ph-inner">
+            <div class="ph-icon"><img src="./IMAGEN8.jpg">🌐</div>
+            <strong data-es="IMAGEN 10" data-en="IMAGE 10">IMAGEN 10</strong>
+            <span data-es="Clausura del Evento" data-en="Event Closing Ceremony">Clausura del Evento</span>
+            <small data-es="[ Reemplazar con foto ]" data-en="[ Replace with photo ]">[ Reemplazar con foto ]</small>
+          </div>
+        </div>
+        <div class="media-caption" data-es="10 · Cierre Colombia 5.0 · Bogotá 2026" data-en="10 · Colombia 5.0 Closing · Bogotá 2026">10 · Cierre Colombia 5.0 · Bogotá 2026</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════ CONCEPTOS ══════ -->
+<section class="section" id="conceptos">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow" data-es="// CONCEPTOS CLAVE" data-en="// KEY CONCEPTS">// CONCEPTOS CLAVE</div>
+      <h2 class="section-title" data-es="Lo que aprendí en el Taller" data-en="What I Learned at the Workshop">Lo que aprendí en el <span class="gradient-text" data-es="Taller" data-en="Workshop">Taller</span></h2>
+    </div>
+    <div class="cards-grid">
+      <div class="concept-card reveal">
+        <div class="cc-icon">🤖</div>
+        <h3 data-es="Agente de IA" data-en="AI Agent">Agente de IA</h3>
+        <p data-es="Sistema inteligente capaz de recibir instrucciones, analizar información, tomar decisiones y ejecutar tareas de forma autónoma para alcanzar un objetivo específico. Va más allá del simple chatbot." data-en="Intelligent system capable of receiving instructions, analyzing information, making decisions, and executing tasks autonomously to achieve a specific goal. Goes far beyond simple chatbots.">Sistema inteligente capaz de recibir instrucciones, analizar información, tomar decisiones y ejecutar tareas de forma autónoma para alcanzar un objetivo específico. Va más allá del simple chatbot.</p>
+      </div>
+      <div class="concept-card reveal" style="--d:.08s">
+        <div class="cc-icon">⚡</div>
+        <h3 data-es="LLM" data-en="LLM">LLM</h3>
+        <p data-es="Large Language Model — Modelo avanzado de lenguaje que permite comprender instrucciones, generar texto, responder preguntas y servir como cerebro principal de muchos agentes de IA." data-en="Large Language Model — Advanced language model that enables understanding instructions, generating text, answering questions, and serving as the main brain of many AI agents.">Large Language Model — Modelo avanzado de lenguaje que permite comprender instrucciones, generar texto, responder preguntas y servir como cerebro principal de muchos agentes de IA.</p>
+      </div>
+      <div class="concept-card reveal" style="--d:.16s">
+        <div class="cc-icon">🛠️</div>
+        <h3 data-es="Skill (Habilidad)" data-en="Skill">Skill (Habilidad)</h3>
+        <p data-es="Función o capacidad especializada que posee un agente para realizar una tarea concreta. Los agentes cargan Skills solo cuando los necesitan, evitando la saturación de memoria y mejorando la precisión lógica." data-en="Specialized function or capability that an agent has to perform a specific task. Agents load Skills only when needed, avoiding memory saturation and improving logical precision.">Función o capacidad especializada que posee un agente para realizar una tarea concreta. Los agentes cargan Skills solo cuando los necesitan, evitando saturar la memoria.</p>
+      </div>
+      <div class="concept-card reveal" style="--d:.24s">
+        <div class="cc-icon">🔄</div>
+        <h3 data-es="Horizonte de Tiempo" data-en="Time Horizon">Horizonte de Tiempo</h3>
+        <p data-es="Capacidad del agente para planificar y ejecutar acciones considerando objetivos a corto, mediano o largo plazo. Mide la dificultad de tareas que la IA puede completar exitosamente el 50% de las veces." data-en="The agent's ability to plan and execute actions considering short, medium, or long-term objectives. Measures the difficulty of tasks that AI can successfully complete 50% of the time.">Capacidad del agente para planificar y ejecutar acciones considerando objetivos a corto, mediano o largo plazo, manteniendo el contexto durante el proceso.</p>
+      </div>
+      <div class="concept-card reveal" style="--d:.32s">
+        <div class="cc-icon">🧠</div>
+        <h3 data-es="Memoria Persistente" data-en="Persistent Memory">Memoria Persistente</h3>
+        <p data-es="Capacidad del agente para almacenar información relevante entre sesiones y utilizarla para mejorar sus respuestas y acciones futuras. Implementada mediante archivos como AGENTS.md o CLAUDE.md." data-en="The agent's capacity to store relevant information between sessions and use it to improve future responses and actions. Implemented through files like AGENTS.md or CLAUDE.md.">Capacidad del agente para almacenar información relevante y utilizarla posteriormente para mejorar sus respuestas. Implementada con archivos como AGENTS.md o CLAUDE.md.</p>
+      </div>
+      <div class="concept-card reveal" style="--d:.40s">
+        <div class="cc-icon">🔀</div>
+        <h3 data-es="Flujos de Trabajo" data-en="Workflows">Flujos de Trabajo</h3>
+        <p data-es="Secuencia organizada de tareas que un agente puede ejecutar automáticamente para completar procesos complejos. Un flujo bien mapeado reduce las alucinaciones de la IA en un 60%." data-en="Organized sequence of tasks that an agent can execute automatically to complete complex processes. A well-mapped workflow reduces AI hallucinations by 60%.">Secuencia organizada de tareas que un agente puede ejecutar automáticamente para completar procesos complejos, reduciendo las alucinaciones de la IA en un 60%.</p>
+      </div>
+      <div class="concept-card reveal" style="--d:.48s">
+        <div class="cc-icon">🌐</div>
+        <h3 data-es="Herramientas (Tools)" data-en="Tools">Herramientas (Tools)</h3>
+        <p data-es="Recursos externos que el agente puede utilizar de forma autónoma: bases de datos, hojas de cálculo, buscadores web, terminales, APIs y aplicaciones empresariales. El agente 'tiene manos'." data-en="External resources that the agent can use autonomously: databases, spreadsheets, web browsers, terminals, APIs, and business applications. The agent 'has hands'.">Recursos externos que el agente puede utilizar: bases de datos, hojas de cálculo, buscadores web, APIs y aplicaciones empresariales. El agente "tiene manos".</p>
+      </div>
+      <div class="concept-card reveal" style="--d:.56s">
+        <div class="cc-icon">⚙️</div>
+        <h3 data-es="Automatización" data-en="Automation">Automatización</h3>
+        <p data-es="Uso de la IA para realizar tareas repetitivas sin intervención constante del usuario. Permite ahorrar hasta el 70% del tiempo en procesos administrativos y reducir errores humanos significativamente." data-en="Use of AI to perform repetitive tasks without constant user intervention. Saves up to 70% of time on administrative processes and significantly reduces human errors.">Uso de la IA para realizar tareas repetitivas sin intervención constante. Permite ahorrar hasta el 70% del tiempo en procesos administrativos y reducir errores.</p>
+      </div>
+    </div>
+
+    <!-- Aplicaciones empresariales -->
+    <div class="apps-block reveal">
+      <div class="apps-title" data-es="¿Para qué usa las empresas la IA?" data-en="How do companies use AI?">¿Para qué usa las empresas la IA?</div>
+      <div class="apps-grid">
+        <div class="app-chip">✉️ <span data-es="Redacción de correos" data-en="Email drafting">Redacción de correos</span></div>
+        <div class="app-chip">📊 <span data-es="Análisis de información" data-en="Information analysis">Análisis de información</span></div>
+        <div class="app-chip">💬 <span data-es="Atención al cliente" data-en="Customer service">Atención al cliente</span></div>
+        <div class="app-chip">💻 <span data-es="Generación de código" data-en="Code generation">Generación de código</span></div>
+        <div class="app-chip">🛡️ <span data-es="Ciberseguridad" data-en="Cybersecurity">Ciberseguridad</span></div>
+        <div class="app-chip">📄 <span data-es="Extracción de metadatos" data-en="Metadata extraction">Extracción de metadatos</span></div>
+        <div class="app-chip">⚖️ <span data-es="Documentos legales" data-en="Legal documents">Documentos legales</span></div>
+        <div class="app-chip">🔍 <span data-es="Investigación general" data-en="General research">Investigación general</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════ GLOSARIO ══════ -->
+<section class="section section-dark" id="glosario">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow" data-es="// GLOSARIO TÉCNICO BILINGÜE" data-en="// BILINGUAL TECHNICAL GLOSSARY">// GLOSARIO TÉCNICO BILINGÜE</div>
+      <h2 class="section-title">Glossary <span class="gradient-text">/ Glosario</span></h2>
+      <p class="section-sub" data-es="30 términos técnicos aprendidos durante Colombia 5.0 — con traducción y definición." data-en="30 technical terms learned at Colombia 5.0 — with translation and definition.">30 términos técnicos aprendidos durante Colombia 5.0 — con traducción y definición.</p>
+    </div>
+    <div class="gloss-table-wrap reveal">
+      <table class="gloss-table">
+        <thead>
+          <tr>
+            <th data-es="Inglés" data-en="English">Inglés</th>
+            <th data-es="Español" data-en="Spanish">Español</th>
+            <th data-es="Definición" data-en="Definition">Definición</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>AI Agent</td><td data-es="Agente de IA" data-en="AI Agent">Agente de IA</td><td data-es="Sistema autónomo que planifica, ejecuta y decide para alcanzar un objetivo." data-en="Autonomous system that plans, executes, and decides to achieve a goal.">Sistema autónomo que planifica, ejecuta y decide para alcanzar un objetivo.</td></tr>
+          <tr><td>LLM</td><td data-es="Modelo de Lenguaje Grande" data-en="Large Language Model">Modelo de Lenguaje Grande</td><td data-es="Modelo de IA entrenado en texto masivo para comprender y generar lenguaje." data-en="AI model trained on massive text to understand and generate language.">Modelo de IA entrenado en texto masivo para comprender y generar lenguaje.</td></tr>
+          <tr><td>MCP</td><td data-es="Protocolo de Contexto de Modelo" data-en="Model Context Protocol">Protocolo de Contexto de Modelo</td><td data-es="Estándar abierto que unifica cómo las IAs acceden a herramientas y datos externos." data-en="Open standard unifying how AIs access external tools and data sources.">Estándar abierto que unifica cómo las IAs acceden a herramientas y datos externos.</td></tr>
+          <tr><td>Automation</td><td data-es="Automatización" data-en="Automation">Automatización</td><td data-es="Proceso de ejecutar tareas repetitivas sin intervención humana constante." data-en="Process of performing repetitive tasks without constant human intervention.">Proceso de ejecutar tareas repetitivas sin intervención humana constante.</td></tr>
+          <tr><td>Time Horizon</td><td data-es="Horizonte de Tiempo" data-en="Time Horizon">Horizonte de Tiempo</td><td data-es="Duración máxima de una tarea que la IA completa con 50% de éxito." data-en="Maximum task duration that AI completes with 50% success rate.">Duración máxima de una tarea que la IA completa con 50% de éxito.</td></tr>
+          <tr><td>Skill</td><td data-es="Habilidad Especializada" data-en="Specialized Skill">Habilidad Especializada</td><td data-es="Paquete de instrucciones que el agente carga solo cuando es necesario." data-en="Instruction package the agent loads only when necessary.">Paquete de instrucciones que el agente carga solo cuando es necesario.</td></tr>
+          <tr><td>Persistent Memory</td><td data-es="Memoria Persistente" data-en="Persistent Memory">Memoria Persistente</td><td data-es="Capacidad de retener información entre sesiones para mejorar respuestas futuras." data-en="Ability to retain information between sessions to improve future responses.">Capacidad de retener información entre sesiones para mejorar respuestas futuras.</td></tr>
+          <tr><td>Workflow</td><td data-es="Flujo de Trabajo" data-en="Workflow">Flujo de Trabajo</td><td data-es="Secuencia organizada de tareas ejecutadas automáticamente por el agente." data-en="Organized sequence of tasks automatically executed by the agent.">Secuencia organizada de tareas ejecutadas automáticamente por el agente.</td></tr>
+          <tr><td>Prompt Engineering</td><td data-es="Ingeniería de Prompts" data-en="Prompt Engineering">Ingeniería de Prompts</td><td data-es="Arte de diseñar instrucciones que maximizan la calidad de las respuestas de la IA." data-en="Art of designing instructions that maximize the quality of AI responses.">Arte de diseñar instrucciones que maximizan la calidad de las respuestas de la IA.</td></tr>
+          <tr><td>Multi-agent</td><td data-es="Multi-agente" data-en="Multi-agent">Multi-agente</td><td data-es="Arquitectura donde múltiples agentes trabajan en paralelo con roles especializados." data-en="Architecture where multiple agents work in parallel with specialized roles.">Arquitectura donde múltiples agentes trabajan en paralelo con roles especializados.</td></tr>
+          <tr><td>Context Window</td><td data-es="Ventana de Contexto" data-en="Context Window">Ventana de Contexto</td><td data-es="Cantidad de texto (tokens) que un modelo puede procesar en una interacción." data-en="Amount of text (tokens) a model can process in a single interaction.">Cantidad de texto (tokens) que un modelo puede procesar en una interacción.</td></tr>
+          <tr><td>Token</td><td data-es="Token" data-en="Token">Token</td><td data-es="Unidad mínima de texto procesada por un modelo, equivalente a ~4 caracteres." data-en="Minimum text unit processed by a model, equivalent to ~4 characters.">Unidad mínima de texto procesada por un modelo, equivalente a ~4 caracteres.</td></tr>
+          <tr><td>Hallucination</td><td data-es="Alucinación" data-en="Hallucination">Alucinación</td><td data-es="Cuando la IA genera información plausible pero factualmente incorrecta." data-en="When AI generates plausible-sounding but factually incorrect information.">Cuando la IA genera información plausible pero factualmente incorrecta.</td></tr>
+          <tr><td>Fine-tuning</td><td data-es="Ajuste Fino" data-en="Fine-tuning">Ajuste Fino</td><td data-es="Proceso de reentrenar un modelo preentrenado con datos específicos de un dominio." data-en="Process of retraining a pre-trained model on domain-specific data.">Proceso de reentrenar un modelo preentrenado con datos de un dominio específico.</td></tr>
+          <tr><td>RAG</td><td data-es="Generación Aumentada por Recuperación" data-en="Retrieval-Augmented Generation">Generación Aumentada por Recuperación</td><td data-es="La IA recupera documentos relevantes antes de generar su respuesta." data-en="AI retrieves relevant documents before generating its response.">La IA recupera documentos relevantes antes de generar su respuesta.</td></tr>
+          <tr><td>OSINT</td><td data-es="Inteligencia de Fuentes Abiertas" data-en="Open Source Intelligence">Inteligencia de Fuentes Abiertas</td><td data-es="Recopilación de información desde fuentes públicamente disponibles." data-en="Collection of information from publicly available sources.">Recopilación y análisis de información desde fuentes públicamente disponibles.</td></tr>
+          <tr><td>API</td><td data-es="Interfaz de Programación de Aplicaciones" data-en="Application Programming Interface">Interfaz de Programación</td><td data-es="Conjunto de reglas que permite a los componentes de software comunicarse entre sí." data-en="Set of rules that allows software components to communicate with each other.">Conjunto de reglas que permite a los componentes de software comunicarse entre sí.</td></tr>
+          <tr><td>Deployment</td><td data-es="Despliegue" data-en="Deployment">Despliegue</td><td data-es="Proceso de poner un modelo de IA disponible en un entorno de producción real." data-en="Process of making an AI model available in a real production environment.">Proceso de poner un modelo de IA disponible en un entorno de producción real.</td></tr>
+          <tr><td>Inference</td><td data-es="Inferencia" data-en="Inference">Inferencia</td><td data-es="Proceso por el cual un modelo de IA genera una salida a partir de una entrada." data-en="Process by which an AI model generates an output from a given input.">Proceso por el cual un modelo de IA genera una salida a partir de una entrada.</td></tr>
+          <tr><td>Swarm</td><td data-es="Enjambre" data-en="Swarm">Enjambre</td><td data-es="Sistema multi-agente donde varios agentes coordinan para resolver problemas complejos." data-en="Multi-agent system where several agents coordinate to solve complex problems.">Sistema multi-agente donde agentes coordinan como un enjambre en paralelo.</td></tr>
+          <tr><td>Digital Sovereignty</td><td data-es="Soberanía Digital" data-en="Digital Sovereignty">Soberanía Digital</td><td data-es="Control de una nación u organización sobre sus propios datos e infraestructura digital." data-en="A nation's or organization's control over its own data and digital infrastructure.">Control de una nación u organización sobre sus datos e infraestructura digital.</td></tr>
+          <tr><td>OpenCode</td><td data-es="OpenCode" data-en="OpenCode">OpenCode</td><td data-es="Agente de codificación CLI de código abierto que usa IA para escribir y ejecutar código." data-en="Open-source CLI coding agent that uses AI to write and execute code locally.">Agente CLI de código abierto que usa IA para escribir y ejecutar código localmente.</td></tr>
+          <tr><td>Kill List</td><td data-es="Lista de Eliminación" data-en="Kill List">Lista de Eliminación</td><td data-es="Lista curada de tareas manuales y repetitivas a eliminar mediante automatización." data-en="Curated list of manual, repetitive tasks to eliminate through automation.">Lista curada de tareas manuales y repetitivas a eliminar mediante automatización.</td></tr>
+          <tr><td>Webhook</td><td data-es="Webhook" data-en="Webhook">Webhook</td><td data-es="Callback HTTP automatizado que se activa por un evento para comunicar sistemas en tiempo real." data-en="Automated HTTP callback triggered by an event to communicate systems in real time.">Callback HTTP automatizado que conecta sistemas cuando ocurre un evento.</td></tr>
+          <tr><td>GitHub Pages</td><td data-es="GitHub Pages" data-en="GitHub Pages">GitHub Pages</td><td data-es="Servicio de alojamiento gratuito de GitHub que publica sitios estáticos desde un repositorio." data-en="Free GitHub hosting service that publishes static websites directly from a repository.">Servicio gratuito de GitHub para publicar sitios estáticos desde un repositorio.</td></tr>
+          <tr><td>Frontier Model</td><td data-es="Modelo de Frontera" data-en="Frontier Model">Modelo de Frontera</td><td data-es="El modelo de IA más capaz disponible en un momento determinado, define el estado del arte." data-en="The most capable AI model available at a given time, defining the state of the art.">El modelo de IA más capaz disponible en un momento dado, define el estado del arte.</td></tr>
+          <tr><td>Digital Transformation</td><td data-es="Transformación Digital" data-en="Digital Transformation">Transformación Digital</td><td data-es="Integración de tecnología digital en todas las áreas de una organización." data-en="Integration of digital technology into all areas of an organization.">Integración de tecnología digital en todas las áreas de una organización.</td></tr>
+          <tr><td>Cloud Computing</td><td data-es="Computación en la Nube" data-en="Cloud Computing">Computación en la Nube</td><td data-es="Servicios y recursos informáticos ofrecidos a través de internet bajo demanda." data-en="Computing services and resources offered over the internet on demand.">Servicios y recursos informáticos ofrecidos a través de internet bajo demanda.</td></tr>
+          <tr><td>Latency</td><td data-es="Latencia" data-en="Latency">Latencia</td><td data-es="Tiempo transcurrido entre enviar una petición a la IA y recibir su respuesta." data-en="Time elapsed between sending a request to AI and receiving its response.">Tiempo transcurrido entre enviar una petición a la IA y recibir su respuesta.</td></tr>
+          <tr><td>Agentic Loop</td><td data-es="Ciclo Agéntico" data-en="Agentic Loop">Ciclo Agéntico</td><td data-es="Bucle continuo: Pensar→Actuar→Observar→Refinar, ejecutado de forma autónoma." data-en="Continuous loop: Think→Act→Observe→Refine, executed autonomously by agents.">Bucle continuo: Pensar→Actuar→Observar→Refinar, ejecutado de forma autónoma.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ══════ REFLEXIÓN ÉTICA ══════ -->
+<section class="section ethics-section" id="etica">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow" data-es="// REFLEXIÓN ÉTICA" data-en="// ETHICAL REFLECTION">// REFLEXIÓN ÉTICA</div>
+      <h2 class="section-title" data-es="Ética en la Tecnología Empresarial" data-en="Ethics in Business Technology">Ética en la <span class="gradient-text" data-es="Tecnología" data-en="Technology">Tecnología</span></h2>
+      <p class="section-sub" data-es="¿Cómo se implementa la ética en la tecnología empresarial? Reflexión sobre inteligencia artificial, datos y automatización." data-en="How is ethics implemented in business technology? Reflection on artificial intelligence, data, and automation.">¿Cómo se implementa la ética en la tecnología empresarial? Reflexión sobre inteligencia artificial, datos y automatización.</p>
+    </div>
+    <div class="ethics-grid">
+      <div class="ethic-card reveal">
+        <div class="ec-num">01</div>
+        <div class="ec-icon">🤖</div>
+        <h3 data-es="Inteligencia Artificial Responsable" data-en="Responsible Artificial Intelligence">Inteligencia Artificial Responsable</h3>
+        <p data-es="Los agentes de IA deben diseñarse con principios de transparencia y explicabilidad. El paradigma SAY→DO→LOG garantiza que cada acción del agente sea declarada, ejecutada y registrada, creando trazabilidad completa y responsabilidad auditable en todos los sistemas autónomos." data-en="AI agents must be designed with principles of transparency and explainability. The SAY→DO→LOG paradigm ensures every agent action is declared, executed, and recorded, creating full traceability and auditable accountability in all autonomous systems.">Los agentes de IA deben diseñarse con principios de transparencia y explicabilidad. El paradigma SAY→DO→LOG garantiza que cada acción sea declarada, ejecutada y registrada, creando trazabilidad completa y responsabilidad auditable.</p>
+      </div>
+      <div class="ethic-card reveal" style="--d:.1s">
+        <div class="ec-num">02</div>
+        <div class="ec-icon">🔒</div>
+        <h3 data-es="Uso Responsable de Datos" data-en="Responsible Data Use">Uso Responsable de Datos</h3>
+        <p data-es="La soberanía digital es un principio fundamental: los datos sensibles no deben migrar a sistemas externos sin consentimiento explícito. Implementar agentes locales (on-premise) protege la privacidad y cumple con regulaciones nacionales e internacionales de protección de datos." data-en="Digital sovereignty is a fundamental principle: sensitive data must not migrate to external systems without explicit consent. Implementing local (on-premise) agents protects privacy and complies with national and international data protection regulations.">La soberanía digital es fundamental: los datos sensibles no deben migrar a sistemas externos sin consentimiento. Implementar agentes locales protege la privacidad y cumple con regulaciones de protección de datos.</p>
+      </div>
+      <div class="ethic-card reveal" style="--d:.2s">
+        <div class="ec-num">03</div>
+        <div class="ec-icon">⚙️</div>
+        <h3 data-es="Automatización con Criterio" data-en="Mindful Automation">Automatización con Criterio</h3>
+        <p data-es="El Semáforo Agéntico ofrece un marco ético para automatizar con responsabilidad: verde para tareas mecánicas de alto volumen, naranja para tareas con componente humano parcial, y morado para preservar siempre las interacciones de alta empatía y responsabilidad estratégica para el criterio humano." data-en="The Agentic Traffic Light offers an ethical framework for responsible automation: green for high-volume mechanical tasks, orange for tasks with partial human component, and purple to always preserve high-empathy and strategic responsibility interactions for human judgment.">El Semáforo Agéntico es un marco ético: verde para tareas mecánicas, naranja para tareas con componente humano, y morado para preservar siempre las interacciones de alta empatía para el criterio humano.</p>
+      </div>
+      <div class="ethic-card reveal" style="--d:.3s">
+        <div class="ec-num">04</div>
+        <div class="ec-icon">🌍</div>
+        <h3 data-es="Impacto Social de la Tecnología" data-en="Social Impact of Technology">Impacto Social de la Tecnología</h3>
+        <p data-es="El 75% de los trabajadores del conocimiento ya integra la IA en su flujo diario, pero existe una brecha crítica entre sectores. La democratización responsable del acceso a herramientas agénticas es una obligación social del sector tecnológico para garantizar igualdad de oportunidades." data-en="75% of knowledge workers already integrate AI into their daily workflow, but a critical gap exists between sectors. The responsible democratization of access to agentic tools is a social obligation of the technology sector to ensure equal opportunities.">El 75% de los trabajadores del conocimiento ya integra la IA, pero existe una brecha crítica entre sectores. La democratización responsable del acceso a herramientas agénticas es una obligación social del sector tecnológico.</p>
+      </div>
+      <div class="ethic-card reveal" style="--d:.4s">
+        <div class="ec-num">05</div>
+        <div class="ec-icon">💼</div>
+        <h3 data-es="Responsabilidad Profesional" data-en="Professional Responsibility">Responsabilidad Profesional en Software</h3>
+        <p data-es="El profesional del siglo XXI es responsable no solo del código, sino del impacto sistémico de los agentes que despliega. 'Simplifica antes de Automatizar' es un principio ético fundamental: automatizar procesos rotos solo los hace fallar más rápido." data-en="The 21st-century professional is responsible not only for the code but for the systemic impact of the agents they deploy. 'Simplify before Automating' is a fundamental ethical principle: automating broken processes only makes them fail faster.">El profesional moderno es responsable del impacto sistémico de los agentes que despliega. 'Simplifica antes de Automatizar' es un principio ético: automatizar procesos rotos solo los hace fallar más rápido.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════ CONCLUSIÓN / REFLEXIÓN PERSONAL ══════ -->
+<section class="section conclusion-section" id="reflexion">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow" data-es="// CONCLUSIÓN Y REFLEXIÓN PERSONAL" data-en="// CONCLUSION AND PERSONAL REFLECTION">// CONCLUSIÓN Y REFLEXIÓN PERSONAL</div>
+      <h2 class="section-title" data-es="Mi Reflexión" data-en="My Reflection">Mi <span class="gradient-text" data-es="Reflexión" data-en="Reflection">Reflexión</span></h2>
+    </div>
+    <div class="conclusion-layout reveal">
+      <div class="conclusion-quote">
+        <div class="quote-mark">"</div>
+        <blockquote data-es="La Inteligencia Artificial no viene a reemplazar nuestro talento, sino a potenciarlo. Cuando aprendemos a utilizarla de manera inteligente, podemos dedicar menos tiempo a tareas repetitivas y más tiempo a crear, innovar y resolver problemas que realmente generan valor. El futuro pertenece a quienes sepan combinar sus habilidades humanas con el poder de la tecnología, haciendo que la IA trabaje a su favor para alcanzar metas más grandes y significativas." data-en="Artificial Intelligence does not come to replace our talent, but to enhance it. When we learn to use it intelligently, we can spend less time on repetitive tasks and more time creating, innovating, and solving problems that truly generate value. The future belongs to those who know how to combine their human skills with the power of technology, making AI work in their favor to achieve greater and more meaningful goals.">
+          La Inteligencia Artificial no viene a reemplazar nuestro talento, sino a potenciarlo. Cuando aprendemos a utilizarla de manera inteligente, podemos dedicar menos tiempo a tareas repetitivas y más tiempo a crear, innovar y resolver problemas que realmente generan valor. El futuro pertenece a quienes sepan combinar sus habilidades humanas con el poder de la tecnología, haciendo que la IA trabaje a su favor para alcanzar metas más grandes y significativas. ✨🤖📈
+        </blockquote>
+      </div>
+      <div class="conclusion-achievements">
+        <div class="ach-title" data-es="Lo que me llevo del taller" data-en="My key takeaways from the workshop">Lo que me llevo del taller</div>
+        <div class="ach-item">
+          <div class="ach-dot"></div>
+          <span data-es="Entender la diferencia entre chatbot reactivo y agente proactivo" data-en="Understanding the difference between reactive chatbots and proactive agents">Entender la diferencia entre chatbot reactivo y agente proactivo</span>
+        </div>
+        <div class="ach-item">
+          <div class="ach-dot"></div>
+          <span data-es="Aplicar el Semáforo Agéntico para decidir qué automatizar" data-en="Applying the Agentic Traffic Light to decide what to automate">Aplicar el Semáforo Agéntico para decidir qué automatizar</span>
+        </div>
+        <div class="ach-item">
+          <div class="ach-dot"></div>
+          <span data-es="Diseñar procesos con Input → Lógica → Output claros" data-en="Designing processes with clear Input → Logic → Output">Diseñar procesos con Input → Lógica → Output claros</span>
+        </div>
+        <div class="ach-item">
+          <div class="ach-dot"></div>
+          <span data-es="Conocer herramientas gratuitas como OpenCode y MCP" data-en="Learning free tools like OpenCode and MCP">Conocer herramientas gratuitas como OpenCode y MCP</span>
+        </div>
+        <div class="ach-item">
+          <div class="ach-dot"></div>
+          <span data-es="Potencial de recuperar 5-10 horas semanales con agentes" data-en="Potential to recover 5-10 hours per week with agents">Potencial de recuperar 5–10 horas semanales con agentes</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════ FOOTER ══════ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo"><span>Colombia</span>5.0</div>
+      <p data-es="Taller de Alto Impacto · Agentes de IA · Corferias, Bogotá · 9 de Mayo 2026" data-en="High-Impact Workshop · AI Agents · Corferias, Bogotá · May 9, 2026">Taller de Alto Impacto · Agentes de IA · Corferias, Bogotá · 9 de Mayo 2026</p>
+    </div>
+    <div class="footer-nav">
+      <a href="#inicio" data-es="Inicio" data-en="Home">Inicio</a>
+      <a href="#conferencia" data-es="Conferencia" data-en="Conference">Conferencia</a>
+      <a href="#galeria" data-es="Galería" data-en="Gallery">Galería</a>
+      <a href="#glosario" data-es="Glosario" data-en="Glossary">Glosario</a>
+      <a href="#reflexion" data-es="Conclusión" data-en="Conclusion">Conclusión</a>
+    </div>
+    <div class="footer-sena">
+      <strong data-es="Actividad Académica — SENA" data-en="Academic Activity — SENA">Actividad Académica — SENA</strong>
+      <span data-es="Centro de Manufactura en Textil y Cuero · " data-en="Manufacturing Center in Textiles and Leather · ">Centro de Manufactura en Textil y Cuero _ SENA </span>
+      <span data-es="Sitio Web Informativo" data-en="Informational Website Development">Sitio Web Informativo </span>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <strong><span data-es="Colombia 5.0 - CAROL HERNANDEZ" >Colombia 5.0 _ CAROL HERNANDEZ </span></strong>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
